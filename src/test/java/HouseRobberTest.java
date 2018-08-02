@@ -12,4 +12,8 @@ public class HouseRobberTest {
         assertThat(robber.rob(Lists.newArrayList(1))).isEqualTo(1);
     }
 
+    @Test
+    public void whenGivenArrayOf1House2Return2() {
+        assertThat(robber.rob(Lists.newArrayList(2))).isEqualTo(2);
+    }
 }
