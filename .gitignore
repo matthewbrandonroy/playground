@@ -1,1 +1,5 @@
 .idea
+.gradle/4.0/fileContent/
+.gradle/4.0/fileHashes/resourceHashesCache.bin
+build/
+out/
